@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    background-image: url(./image/port.jpg);
+    background-size: 100%,100%;
+}
+.header>.ho>a{
+    color: black;
+    float: right;
+    padding: 20px;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 19px;
+}
+.ho a:hover{
+text-decoration: none;
+    color:  white;
+    background: rgb(235, 13, 124);
+    border-radius: 10px;
+    transition: .4s ease;
+}
+.header>.ho{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: rgb(252, 196, 206); */
+}
+.details{
+    margin-top: 13%;
+    margin-left: 7%;
+}
+.details h1,h2{
+    font-size: 45px;
+    color: black;
+}
+.details h3{
+    font-size:20px;
+    line-height: 24px;width: 40%;
+}
+.details span{
+    color: rgb(235, 13, 124);
+}
+.details a{
+    text-decoration: none;
+    color: aliceblue;
+    background: black;
+    margin: 20px 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.details a:hover{
+    background-color: rgb(235, 13, 124);
+}
+.image{
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+.girl{
+    position: absolute;
+    height: 10%;
+    right: 50%;
+    transform: translate(-30%);
+    bottom: 0%;
+    transition: left 2s ease;
+}
+.image:hover{
+        right: 10%;
+}
+
+.fa-brands,.fa-solid,.fa-envelope{
+    font-size: 50px;
+    margin: 20px;
+    left:50px;color: black;
+    
+}
+.fa-brands:hover{
+    color: rgb(235, 13, 124);
+}
+.fa-phone:hover{
+    color: rgb(235, 13, 124);
+}
+.fa-envelope:hover{
+    color: rgb(235, 13, 124);
+}
+.cla{
+    display: inline-flex;
+    width: 100%;
+}
+.cla>p:hover{
+    color: rgb(235, 13, 124);
+}
+.head{
+ margin-left: 500px;
+ color: rgb(235, 13, 124);
+ padding: 20px;
+}
+.education {
+  display: inline-flex;
+  width: 90%;
+ margin-left: 120px;
+}
+.sch1{
+    width: 35%; 
+    padding: 5px;  
+}
+.sch2{
+    width: 35%; 
+    padding: 5px;
+}
+.sch3{
+    width: 30%;
+    font-size: 17px;
+    padding: 5px;
+
+}
+.vi{
+ display: inline-flex;
+ width: 90%;
+margin-left: 110px;
+
+}
+.v1,.v2{
+    width: 35%;
+}
+.v1,.v2,.v3{
+    font-size: 20px;
+}
+.v1>p,h4{
+   padding: 8px;
+}
+.v2>p,h4{
+    padding: 8px;
+ }
+ .v3>p,h4{
+    padding: 8px;
+ }
+ #sh{
+    padding-left: 300px;
+ }
+ #c{
+    margin-top: 100px;
+
+ }
+ fieldset{
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+    padding: 30px;
+ } 
+ #pro{
+    padding: 100px;
+ }
+#shop{
+  margin-left: 320px;
+  font-size: 40px;
+  
+}
+#to{
+    margin-left: 300px;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.pic{
+    padding: 55px;
+}
